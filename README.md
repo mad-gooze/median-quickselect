@@ -1,4 +1,6 @@
 # median-quickselect
+[![NPM](https://nodei.co/npm/median-quickselect.png)](https://npmjs.org/package/median-quickselect)
+
 Fast implementation of lower median search using Quick select algorithm. Ported from [this C implementation](http://ndevilla.free.fr/median/median/src/quickselect.c).
 
 Please read ["Fast median search: an ANSI C implementation"](http://ndevilla.free.fr/median/median/) by Nicolas Devillard for more info.
@@ -18,6 +20,7 @@ Or hot-link via [unpkg.com](https://unpkg.com/)
 const median = require('median-quickselect');
 median([1, 4, 10, 2, 5, 0, -5]); // 2
 ```
+Note that the  **order of elements ** on array passed to `median()` will be  **changed** after call.
 ## Benchmark
 ```
 $ npm run bench                                                                                                                                                                       1001 ms  master 

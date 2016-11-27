@@ -1,6 +1,6 @@
 {
   "name": "median-quickselect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast implementation of median search using quickselect algorithm",
   "main": "lib/median-quickselect.min.js",
   "scripts": {
